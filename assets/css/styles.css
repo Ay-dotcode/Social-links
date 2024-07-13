@@ -50,7 +50,8 @@ main {
     font-size: 14px;
     margin-bottom: 24px;
 }
-.links{
+
+.links {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,16 +65,19 @@ main {
     font-weight: 400;
     font-size: 14px;
 }
-.links img{
+
+.links img {
     width: 20px;
     margin-right: 24px;
 }
-.links:hover{
+
+.links:hover {
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);
     cursor: pointer;
 }
-.links:active{
+
+.links:active {
     background-color: hsl(75, 94%, 47%);
 }
 
@@ -83,4 +87,21 @@ footer {
     color: white;
     position: absolute;
     bottom: 0;
+}
+
+footer a {
+    color: hsl(75, 94%, 47%);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: hsl(75, 94%, 57%);
+}
+
+footer a:active {
+    color: hsl(75, 94%, 37%);
+}
+
+footer a:visited {
+    color: hsl(75, 94%, 47%);
 }
