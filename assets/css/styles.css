@@ -66,8 +66,15 @@ main {
 }
 .links img{
     width: 20px;
-    height: 20px;
     margin-right: 24px;
+}
+.links:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+.links:active{
+    background-color: hsl(75, 94%, 47%);
 }
 
 footer {
