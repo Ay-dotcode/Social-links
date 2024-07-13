@@ -51,7 +51,7 @@ main {
     margin-bottom: 24px;
 }
 
-.links {
+.buttons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,20 +64,21 @@ main {
     border: none;
     font-weight: 400;
     font-size: 14px;
+    text-decoration: none;
 }
 
-.links img {
+.buttons img {
     width: 20px;
     margin-right: 24px;
 }
 
-.links:hover {
+.buttons:hover {
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);
     cursor: pointer;
 }
 
-.links:active {
+.buttons:active {
     background-color: hsl(75, 94%, 47%);
 }
 
